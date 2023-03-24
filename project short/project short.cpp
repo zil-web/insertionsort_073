@@ -42,6 +42,18 @@ void insertionsort() {
 				arr[j + 1] = arr[j];
 				j--;
 		}
-			arr[j + 1] 
+			arr[j + 1] = temp;
+
+			cout << "\npass" << i << ": ";
+			for (int k = 0; k < n; k++) {
+				cout << arr[k] << " ";
+			}
 	}
 }
+
+void display() {
+	cout << "\n===============================" << endl;
+	cout << "Element Array yang telah tersusun" << endl;
+	cout << "=================================" << endl;
+
+	for (int j = 0; j <
